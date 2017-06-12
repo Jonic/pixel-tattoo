@@ -4,11 +4,11 @@ import { Layer, Stage } from 'react-konva'
 import Pixel from './Pixel/Pixel'
 
 const columnWidth = 7
-const viewportWidth = 1440
 const dpi = 72
 const mmInInch = 25.4
 const squareWidth = 10
 const cm = dpi / mmInInch * squareWidth
+const viewportWidth = 1440
 
 const pixels = () => {
   let columnCenter
@@ -19,7 +19,7 @@ const pixels = () => {
   let y = 0
 
   while (y < verticalSteps) {
-    columnCenter = y + Math.floor(columnWidth / 2) // eslint-disable-line no-magic-numbers
+    columnCenter = y // eslint-disable-line no-magic-numbers
 
     while (x < horizontalSteps) {
       pixelsArray.push(
@@ -45,7 +45,10 @@ const pixels = () => {
 
 const Canvas = () =>
   <Stage width={1440} height={700}>
-    <Layer>
+    <Layer
+      scaleY={-1}
+      offsetY={700}
+    >
       {pixels()}
     </Layer>
   </Stage>
