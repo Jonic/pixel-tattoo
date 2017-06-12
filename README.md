@@ -2,6 +2,8 @@
 
 *tl;dr: I've used JavaScript and the palette of a Sonic sprite to procedurally generate a tattoo pattern for my arm because I'm a huge nerd.*
 
+Sample Output: (https://procgentattoo.100yen.co.uk/)
+
 ## The Plan
 
 I already have a + tattooed on my left arm ([which you can see here](https://www.instagram.com/p/BBu22aTxO62/)), made up of 5, 1cm square blocks. I had an idea to get lots of blocky pixels tattooed on my arm, and thought it would make sense to incorporate my existing + tattoo into the design.
