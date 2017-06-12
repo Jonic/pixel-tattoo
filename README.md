@@ -16,7 +16,7 @@ Using the color palette from a sprite of Sonic the Hedgehog from the first Mega 
 
 Given the nature of the spiral, the pixels need to create a staircase effect. The algorithm handles this, and also randomises the chance of a pixel spawning, as well as reducing its size depending on its distance from the center of the main spiral column.
 
-Each pixel is also clickable to allow me to manually turn pixel on and off once the pattern has been generated. I've also made it aware of the existing + tattoo, so that a space is left to accommodate it. The click handler will not work when the tattoo is on my arm due to hardware limitations, chiefly JavaScript support on the client.
+I've made the algorithm aware of the existing + tattoo, so that a space is left to accommodate it. Each pixel is also clickable to allow me to manually turn it 'on' or 'off' once the pattern has been generated. The click handler will not work when the tattoo is on my arm due to hardware limitations, chiefly JavaScript support on the client.
 
 ## Pseudo-philosophical Nonsense
 
