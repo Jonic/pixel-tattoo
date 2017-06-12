@@ -22,8 +22,8 @@ class Pixel extends React.Component {
 
   componentWillMount = () => {
     this.setState({
-      alpha: Number(this.willSpawn()),
-      color: this.randomColor(),
+      alpha: this.setAlpha(),
+      color: this.setColor(),
       x:     this.getCoord(this.props.cellX),
       y:     this.getCoord(this.props.cellY),
     })
@@ -68,8 +68,16 @@ class Pixel extends React.Component {
     return false
   }
 
-  randomColor = () => {
-    if (this.cellIsInPlus()) {
+  setAlpha = () => {
+    if (this.willSpawn()) {
+      return 1
+    }
+
+    return 0
+  }
+
+  setColor = () => {
+    if (this.cellIsInPlus() || this.state.alpha === 0) {
       return '0, 0, 0'
     }
 
