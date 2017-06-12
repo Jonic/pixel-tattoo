@@ -4,7 +4,7 @@
 
 ## The Plan
 
-I already have a + tattooed on my left after, made up of 5, 1cm square blocks. I had an idea to get lots of blocky pixels tattooed on my arm, and thought it would make sense to incorporate my existing + tattoo into the design.
+I already have a + tattooed on my left arm ([which you can see here](https://www.instagram.com/p/BBu22aTxO62/)), made up of 5, 1cm square blocks. I had an idea to get lots of blocky pixels tattooed on my arm, and thought it would make sense to incorporate my existing + tattoo into the design.
 
 Give the orientation of the + (rotated 45deg relative to the arm itself), Adding pixels to it would result in a design that will spiral down the length of my forearm to the wrist.
 
